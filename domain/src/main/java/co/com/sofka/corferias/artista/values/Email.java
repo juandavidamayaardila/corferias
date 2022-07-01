@@ -8,6 +8,11 @@ public class Email implements ValueObject<String > {
 
     private final String value;
 
+    /**
+     * Validamos el email para garantizar que sea valido.
+     *
+     * @param value email ingresado por el cliente.
+     */
     public Email(String value){
         this.value = value;
 

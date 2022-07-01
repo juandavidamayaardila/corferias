@@ -8,8 +8,14 @@ public class Telefono implements ValueObject<String > {
 
     private final String value;
 
+    /**
+     * Validamos que el telefono sea valido,
+     * 10 caracteres.
+     *
+     * @param value Numero telefonico ingresado.
+     */
     public Telefono(String value){
-        this.value = value;
+        this.value = Objects.requireNonNull(value);
 
         if(this.value.length() != 10){
             throw  new IllegalArgumentException("Por favor ingrese un email valido");

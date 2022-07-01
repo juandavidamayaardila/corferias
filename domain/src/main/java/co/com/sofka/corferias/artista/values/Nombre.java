@@ -8,8 +8,14 @@ public class Nombre implements ValueObject<String> {
 
     private final String value;
 
+    /**
+     * Validamos que el nombre no sea null
+     * y sea validao al menos 3 letras.
+     *
+     * @param value Nombre del Evento
+     */
     public Nombre(String value){
-        this.value = value;
+        this.value = Objects.requireNonNull(value);
 
         if(this.value.length() < 3){
             throw  new IllegalArgumentException("Por favor ingrese un Nombre valido");
