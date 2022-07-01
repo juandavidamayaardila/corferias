@@ -15,7 +15,7 @@ para presentar distintos artistas.
 - [@Repository](https://github.com/juandavidamayaardila/corferias)
 
 ## Video
-- [@Video]([https://youtu.be/_cM3ZeGjV-I](https://youtu.be/XFYwaJyyYic))
+- [@Video](https://youtu.be/XFYwaJyyYic)
 
 
 
