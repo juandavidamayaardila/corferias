@@ -1,6 +1,5 @@
 package co.com.sofka.corferias.artista;
 
-import co.com.sofka.corferias.artista.comands.CambiarNombre;
 import co.com.sofka.corferias.artista.events.ArtistaCreado;
 import co.com.sofka.corferias.artista.values.ArtistaId;
 import co.com.sofka.corferias.artista.values.Email;
@@ -19,6 +18,10 @@ public class Artista extends AggregateEvent<ArtistaId> {
     protected Nombre nombre;
     protected Email email;
     protected Telefono telefono;
+
+    protected List<Cancion> canciones;
+
+    protected Orquesta orquesta;
 
     public Artista(ArtistaId entityId, Nombre nombre, Email email, Telefono telefono) {
         super(entityId);
