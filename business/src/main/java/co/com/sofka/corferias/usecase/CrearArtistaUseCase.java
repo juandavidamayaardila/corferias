@@ -6,6 +6,13 @@ import co.com.sofka.business.support.ResponseEvents;
 import co.com.sofka.corferias.artista.Artista;
 import co.com.sofka.corferias.artista.comands.CrearArtista;
 
+/**
+ * Caso de uso para crear un artista hacemos usando
+ * comando.
+ *
+ * JD Amaya
+ *
+ */
 public class CrearArtistaUseCase extends UseCase<RequestCommand<CrearArtista>, ResponseEvents> {
 
     @Override

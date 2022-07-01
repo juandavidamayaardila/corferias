@@ -15,9 +15,15 @@ import org.mockito.InjectMocks;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+/**
+ * Prueba de creacion de Artistaas,
+ * se crea el artista y se comprueba con
+ * el valor que devuelve el evento.
+ *
+ */
 @ExtendWith(MockitoExtension.class)
 class CrearArtistaUseCaseTest {
-
 
     @InjectMocks
     CrearArtistaUseCase useCase;

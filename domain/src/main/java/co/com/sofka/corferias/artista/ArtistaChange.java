@@ -4,6 +4,11 @@ import co.com.sofka.corferias.artista.events.ArtistaCreado;
 import co.com.sofka.corferias.artista.events.NombreCambiado;
 import co.com.sofka.domain.generic.EventChange;
 
+
+/**
+ * Se aplica los cambios a la entidad root
+ * basandos en eventos.
+ */
 public class ArtistaChange extends EventChange {
     public ArtistaChange(Artista artista) {
 
@@ -14,7 +19,8 @@ public class ArtistaChange extends EventChange {
         });
 
         apply((NombreCambiado event) ->{
-            artista.nombre = event.getNombre();
+            artista.actualizarNombre(event.getNombre());
         });
     }
+
 }
