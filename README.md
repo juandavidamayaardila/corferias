@@ -15,22 +15,21 @@ para presentar distintos artistas.
 - [@Repository](https://github.com/juandavidamayaardila/corferias)
 
 ## Video
-- [@Video](https://youtu.be/_cM3ZeGjV-I)
+- [@Video]([https://youtu.be/_cM3ZeGjV-I](https://youtu.be/XFYwaJyyYic))
 
 
 
 A continuación se presenta el modelo de Analisis:
 
-![image](https://user-images.githubusercontent.com/13921988/176810582-96e4e639-65c4-4c1d-8b12-f88f07ce50d8.png)
-
+![image](https://user-images.githubusercontent.com/13921988/176975554-b043ce88-d7b6-4b61-953b-7be3275f9469.png)
 
 Modelo de negocio
 
-![image](https://user-images.githubusercontent.com/13921988/176810758-bb971678-4cb3-431a-a9e1-2e82611842a1.png)
+![image](https://user-images.githubusercontent.com/13921988/176975593-52d759c8-c67e-4cf5-841d-774f60fe7ea7.png)
 
 Modelo de ventos y comportamientos:
 
-![image](https://user-images.githubusercontent.com/13921988/176811858-ab6515b8-b02b-4b2b-b180-659090c145e1.png)
+![image](https://user-images.githubusercontent.com/13921988/176975613-4ce23895-f948-4cb0-927d-74005d458dcb.png)
 
 Se Implementa un caso de uso con su respectiva prueba: 
 
